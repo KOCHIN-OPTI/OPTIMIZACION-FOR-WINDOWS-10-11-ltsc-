@@ -1,0 +1,18 @@
+1) Abrí cmd como administrador (buscá "cmd" → clic derecho → "Ejecutar como administrador").
+
+2) Escribi:
+ documento=	powercfg -import C:\Users\NOMBRE_DE_USUARIO\Documents\optimizacion recopilada de RxD_Dark\RxD_Dark_planOPTIMIZADO.pow   
+ desktop=	powercfg -import C:\Users\NOMBRE_DE_USUARIO\Desktop\optimizacion recopilada de RxD_Dark\RxD_Dark_planOPTIMIZADO.pow   
+ download=	powercfg -import C:\Users\NOMBRE_DE_USUARIO\Downloads\optimizacion recopilada de RxD_Dark\RxD_Dark_planOPTIMIZADO.pow   
+
+(cambiá "NOMBRE_DE_USUARIO" por el usuario de esa de la PC) Lo ma sencillo es darle click derecho en la carpeta de los archivos > propiedades > Ubicacion.
+Depende de lo que dice ejemplo > Ubicacion: C:\Users\Usuario\Documents
+
+
+Te segun el un GUID del plan de energia.
+	como ver cual es el guid de los plan facil con el comando: "powercfg -list"
+
+powercfg -setactive PEGAR_EL_GUID_AQUI   
+
+
+
